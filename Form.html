@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="FormCss.css">
+    <script src="FormJS.js"></script>
+</head>
+<body>
+<div class="D1">
+    <p class="p1">Complete The Information</p>
+</div>
+<div class="D2">
+    <form method="post" action="Form.html" onsubmit="return checkvalidation()">
+        <label for="name"><b>Name:</b></label>
+        <input type="text"  id="name">
+        <span id="Namespan">Name is Required</span>
+
+        <label for="Email"><b>Email:</b></label>
+        <input type="text"  id="Email">
+        <span id="Emailspan">Email is Required</span>
+
+        <label for="pass1"><b>Password:</b></label>
+        <input type="password"  id="pass1">
+        <span id="Pass1spen">Password is Required</span>
+
+        <label for="pass2"><b>Comfirm Password:</b></label>
+        <input type="password"  id="pass2">
+        <span id="Pass2span">Please Confirm your Password</span>
+
+        <input type="submit" value="Submit" class="btn">
+    </form>
+</div>
+
+</body>
+</html>

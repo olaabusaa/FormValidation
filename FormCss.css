@@ -1,0 +1,52 @@
+
+.D1{
+    display:block;
+    background-color:limegreen;
+    margin: auto;
+}
+.p1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+
+}
+.D2{
+    border: solid 1px limegreen;
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+
+}
+label{
+    display: block;
+    width:50%;
+    margin: auto;
+    margin-bottom:5px;
+    margin-top:10px;
+}
+input{
+    display:block;
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 5px;
+}
+.btn{
+    margin-top: 15px;
+    background-color:limegreen;
+    color: white;
+    border: 1px solid white;
+}
+span{
+    display: block;
+    margin: auto;
+    width:50%;
+    margin-bottom:5px;
+    margin-top:10px;
+    color: red;
+    display:none;
+
+
+}
